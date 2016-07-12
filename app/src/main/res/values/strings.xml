@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FirebaseSample</string>
+
+    <string name="google_web_client_id">808374030472-h2jcs2khh5u278lg3ne23of5j28go0fs.apps.googleusercontent.com</string>
+    <string name="google_web_client_secret">ZRs3cMlb67fvw7hD3CcvGkaC</string>
+    <string name="facebook_app_id">1712427142356415</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,30 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.facebook.login.widget.LoginButton
+        android:text="facebook"
+        android:id="@+id/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:text="twitter"
+        android:id="@+id/twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="github"
+        android:onClick="handleGithubSession"
+        android:id="@+id/github"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.google.android.gms.common.SignInButton
+        android:text="google"
+        android:id="@+id/google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
